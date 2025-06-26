@@ -20,7 +20,6 @@
 #define vd_on PORTB |= (1<<5)
 #define vd_off PORTB &= ~(1<<5)
 
-//Definindo as funções
 void vermelho()
 {
 	vm_on;
